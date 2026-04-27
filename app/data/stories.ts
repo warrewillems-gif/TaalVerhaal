@@ -55,7 +55,7 @@ export const stories: Story[] = [
       {
         id: 1,
         title: "De Zonnige Ochtend",
-        duration: "2:15",
+        duration: "0:15",
         disabled: false,
         icon: iconSun,
         color: "#e8dcc8",
@@ -67,7 +67,7 @@ export const stories: Story[] = [
       {
         id: 2,
         title: "Het Broodmes",
-        duration: "3:47",
+        duration: "0:15",
         disabled: false,
         icon: iconKnife,
         color: "#d97706",
@@ -79,7 +79,7 @@ export const stories: Story[] = [
       {
         id: 3,
         title: "In de Oven",
-        duration: "5:10",
+        duration: "0:10",
         disabled: false,
         icon: iconOven,
         color: "#e07b8e",
@@ -91,7 +91,7 @@ export const stories: Story[] = [
       {
         id: 4,
         title: "Het Brood is Klaar!",
-        duration: "4:55",
+        duration: "0:18",
         disabled: false,
         icon: iconBread,
         color: "#c47c2b",
