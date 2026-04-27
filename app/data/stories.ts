@@ -48,7 +48,7 @@ export const stories: Story[] = [
     subtitle: "Een lekker bakkersavontuur!",
     description:
       "Volg Vosje terwijl hij leert hoe je zelf brood bakt — van zonnige ochtend tot knapperig brood uit de oven!",
-    language: "🇸🇦 Arabisch → 🇳🇱 Nederlands",
+    language: "Arabisch → Nederlands",
     image: coverVosje,
     emoji: "🦊",
     tracks: [
@@ -109,7 +109,7 @@ export const stories: Story[] = [
     subtitle: "Een zonnig strandavontuur!",
     description:
       "Ga mee met Pingu terwijl hij de mooiste dag ooit beleeft op het strand — schelpen zoeken, zwemmen en nieuwe vriendjes maken!",
-    language: "🇹🇷 Turks → 🇳🇱 Nederlands",
+    language: "Turks → Nederlands",
     image: coverPingu,
     emoji: "🐧",
     tracks: [
