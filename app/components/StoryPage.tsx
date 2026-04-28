@@ -79,6 +79,23 @@ export function StoryPage() {
     function handleKeyDown(e: KeyboardEvent) {
       // Ignore when typing in an input/textarea
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      // Space key stops the currently playing audio
+      if (e.key === " ") {
+        e.preventDefault();
+        if (audioRef.current) {
+          audioRef.current.pause();
+          audioRef.current.ontimeupdate = null;
+          audioRef.current.onended = null;
+          audioRef.current.onerror = null;
+          audioRef.current = null;
+        }
+        setTrackStates((prev) =>
+          prev.map((t) => ({ ...t, playing: false, active: false, progress: 0 }))
+        );
+        return;
+      }
+
       const index = story!.tracks.findIndex(
         (t) => t.keyBinding.toLowerCase() === e.key.toLowerCase()
       );
