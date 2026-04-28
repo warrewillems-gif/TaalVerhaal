@@ -73,6 +73,23 @@ export function StoryPage() {
     };
   }, []);
 
+  // Keyboard shortcuts: press a track's keyBinding to activate it
+  useEffect(() => {
+    if (!story) return;
+    function handleKeyDown(e: KeyboardEvent) {
+      // Ignore when typing in an input/textarea
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      const index = story!.tracks.findIndex(
+        (t) => t.keyBinding.toLowerCase() === e.key.toLowerCase()
+      );
+      if (index !== -1) {
+        handleTrackClick(index);
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [story, trackStates]);
+
   if (!story) {
     return (
       <div

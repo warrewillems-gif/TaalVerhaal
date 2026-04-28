@@ -25,6 +25,8 @@ export interface Track {
   progressColor: string;
   // Path relative to the public/ folder, e.g. /audio/vosje-bakt-brood/01-de-zonnige-ochtend.mp3
   audioSrc: string;
+  // Keyboard key that triggers this track on the story detail page
+  keyBinding: string;
 }
 
 export interface Story {
@@ -63,6 +65,7 @@ export const stories: Story[] = [
         activeShadow: "#b5a48a",
         progressColor: "from-amber-300 to-yellow-200",
         audioSrc: `${base}audio/vosje-bakt-brood/01-de-zonnige-ochtend.m4a`,
+        keyBinding: "f",
       },
       {
         id: 2,
@@ -75,6 +78,7 @@ export const stories: Story[] = [
         activeShadow: "#92400e",
         progressColor: "from-amber-500 to-orange-400",
         audioSrc: `${base}audio/vosje-bakt-brood/02-het-broodmes.m4a`,
+        keyBinding: "g",
       },
       {
         id: 3,
@@ -87,6 +91,7 @@ export const stories: Story[] = [
         activeShadow: "#9d3a4e",
         progressColor: "from-rose-400 to-pink-300",
         audioSrc: `${base}audio/vosje-bakt-brood/03-in-de-oven.m4a`,
+        keyBinding: "h",
       },
       {
         id: 4,
@@ -99,6 +104,7 @@ export const stories: Story[] = [
         activeShadow: "#7c4a14",
         progressColor: "from-yellow-600 to-amber-400",
         audioSrc: `${base}audio/vosje-bakt-brood/04-het-brood-is-klaar.m4a`,
+        keyBinding: "j",
       },
     ],
   },
@@ -124,6 +130,7 @@ export const stories: Story[] = [
         activeShadow: "#b5a48a",
         progressColor: "from-yellow-200 to-amber-100",
         audioSrc: `${base}audio/pingu-op-het-strand/01-aankomst-op-het-strand.m4a`,
+        keyBinding: "r",
       },
       {
         id: 2,
@@ -136,6 +143,7 @@ export const stories: Story[] = [
         activeShadow: "#92400e",
         progressColor: "from-yellow-400 to-amber-300",
         audioSrc: `${base}audio/pingu-op-het-strand/02-de-parasol.m4a`,
+        keyBinding: "t",
       },
       {
         id: 3,
@@ -148,6 +156,7 @@ export const stories: Story[] = [
         activeShadow: "#1e3a8a",
         progressColor: "from-blue-400 to-sky-300",
         audioSrc: `${base}audio/pingu-op-het-strand/03-in-de-zon.m4a`,
+        keyBinding: "y",
       },
       {
         id: 4,
@@ -160,6 +169,7 @@ export const stories: Story[] = [
         activeShadow: "#991b1b",
         progressColor: "from-red-400 to-orange-400",
         audioSrc: `${base}audio/pingu-op-het-strand/04-de-krab.m4a`,
+        keyBinding: "u",
       },
     ],
   },
