@@ -65,7 +65,7 @@ export const stories: Story[] = [
         activeShadow: "#b5a48a",
         progressColor: "from-amber-300 to-yellow-200",
         audioSrc: `${base}audio/vosje-bakt-brood/01-de-zonnige-ochtend.m4a`,
-        keyBinding: "f",
+        keyBinding: "w",
       },
       {
         id: 2,
@@ -78,7 +78,7 @@ export const stories: Story[] = [
         activeShadow: "#92400e",
         progressColor: "from-amber-500 to-orange-400",
         audioSrc: `${base}audio/vosje-bakt-brood/02-het-broodmes.m4a`,
-        keyBinding: "g",
+        keyBinding: "a",
       },
       {
         id: 3,
@@ -91,7 +91,7 @@ export const stories: Story[] = [
         activeShadow: "#9d3a4e",
         progressColor: "from-rose-400 to-pink-300",
         audioSrc: `${base}audio/vosje-bakt-brood/03-in-de-oven.m4a`,
-        keyBinding: "h",
+        keyBinding: "s",
       },
       {
         id: 4,
@@ -104,7 +104,7 @@ export const stories: Story[] = [
         activeShadow: "#7c4a14",
         progressColor: "from-yellow-600 to-amber-400",
         audioSrc: `${base}audio/vosje-bakt-brood/04-het-brood-is-klaar.m4a`,
-        keyBinding: "j",
+        keyBinding: "d",
       },
     ],
   },
