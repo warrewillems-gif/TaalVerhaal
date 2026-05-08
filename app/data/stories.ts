@@ -130,7 +130,7 @@ export const stories: Story[] = [
         activeShadow: "#b5a48a",
         progressColor: "from-yellow-200 to-amber-100",
         audioSrc: `${base}audio/pingu-op-het-strand/01-aankomst-op-het-strand.m4a`,
-        keyBinding: "f",
+        keyBinding: "w",
       },
       {
         id: 2,
@@ -143,7 +143,7 @@ export const stories: Story[] = [
         activeShadow: "#92400e",
         progressColor: "from-yellow-400 to-amber-300",
         audioSrc: `${base}audio/pingu-op-het-strand/02-de-parasol.m4a`,
-        keyBinding: "g",
+        keyBinding: "a",
       },
       {
         id: 3,
@@ -156,7 +156,7 @@ export const stories: Story[] = [
         activeShadow: "#1e3a8a",
         progressColor: "from-blue-400 to-sky-300",
         audioSrc: `${base}audio/pingu-op-het-strand/03-in-de-zon.m4a`,
-        keyBinding: "h",
+        keyBinding: "s",
       },
       {
         id: 4,
@@ -169,7 +169,7 @@ export const stories: Story[] = [
         activeShadow: "#991b1b",
         progressColor: "from-red-400 to-orange-400",
         audioSrc: `${base}audio/pingu-op-het-strand/04-de-krab.m4a`,
-        keyBinding: "j",
+        keyBinding: "d",
       },
     ],
   },
