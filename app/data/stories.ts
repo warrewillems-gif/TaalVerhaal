@@ -49,7 +49,7 @@ export const stories: Story[] = [
     titleArabic: "الذئب الصغير يخبز الخبز",
     subtitle: "Een lekker bakkersavontuur!",
     description:
-      "Volg Vosje terwijl hij leert hoe je zelf brood bakt — van zonnige ochtend tot knapperig brood uit de oven!",
+      "Lees het verhaal over vosje die een heerlijk brood bakt!",
     language: "Arabisch → Nederlands",
     image: coverVosje,
     emoji: "🦊",
@@ -114,7 +114,7 @@ export const stories: Story[] = [
     titleSecondary: "Plajda Pingu",
     subtitle: "Een zonnig strandavontuur!",
     description:
-      "Ga mee met Pingu terwijl hij de mooiste dag ooit beleeft op het strand — schelpen zoeken, zwemmen en nieuwe vriendjes maken!",
+      "Lees het verhaal over Pingu die een mooie stranddag beleeft!",
     language: "Turks → Nederlands",
     image: coverPingu,
     emoji: "🐧",
