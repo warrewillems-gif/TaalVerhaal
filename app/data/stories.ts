@@ -122,7 +122,7 @@ export const stories: Story[] = [
       {
         id: 1,
         title: "Aankomst op het Strand",
-        duration: "2:30",
+        duration: "0:24",
         disabled: false,
         icon: iconTowel,
         color: "#e8dcc8",
@@ -135,7 +135,7 @@ export const stories: Story[] = [
       {
         id: 2,
         title: "De Parasol",
-        duration: "3:55",
+        duration: "0:21",
         disabled: false,
         icon: iconUmbrella,
         color: "#f59e0b",
@@ -148,7 +148,7 @@ export const stories: Story[] = [
       {
         id: 3,
         title: "In de Zon",
-        duration: "4:20",
+        duration: "0:25",
         disabled: false,
         icon: iconSunglasses,
         color: "#1d4ed8",
@@ -161,7 +161,7 @@ export const stories: Story[] = [
       {
         id: 4,
         title: "De Krab!",
-        duration: "5:05",
+        duration: "0:22",
         disabled: false,
         icon: iconCrab,
         color: "#ef4444",
