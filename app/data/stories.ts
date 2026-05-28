@@ -65,7 +65,7 @@ export const stories: Story[] = [
         activeShadow: "#b5a48a",
         progressColor: "from-amber-300 to-yellow-200",
         audioSrc: `${base}audio/vosje-bakt-brood/01-de-zonnige-ochtend.m4a`,
-        keyBinding: "w",
+        keyBinding: "z",
       },
       {
         id: 2,
@@ -78,7 +78,7 @@ export const stories: Story[] = [
         activeShadow: "#92400e",
         progressColor: "from-amber-500 to-orange-400",
         audioSrc: `${base}audio/vosje-bakt-brood/02-het-broodmes.m4a`,
-        keyBinding: "a",
+        keyBinding: "q",
       },
       {
         id: 3,
@@ -130,7 +130,7 @@ export const stories: Story[] = [
         activeShadow: "#b5a48a",
         progressColor: "from-yellow-200 to-amber-100",
         audioSrc: `${base}audio/pingu-op-het-strand/01-aankomst-op-het-strand.m4a`,
-        keyBinding: "w",
+        keyBinding: "z",
       },
       {
         id: 2,
@@ -143,7 +143,7 @@ export const stories: Story[] = [
         activeShadow: "#92400e",
         progressColor: "from-yellow-400 to-amber-300",
         audioSrc: `${base}audio/pingu-op-het-strand/02-de-parasol.m4a`,
-        keyBinding: "a",
+        keyBinding: "q",
       },
       {
         id: 3,
